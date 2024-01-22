@@ -1,0 +1,182 @@
+body{
+    background-color: #4e0721 !important;
+}
+
+.bg{
+    background-color: rgb(231, 189, 18);
+}
+#brand-name{
+    color: rgb(4, 95, 4);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    font-size: x-large;
+    margin-top: 10px;
+   
+}
+.logo{
+    float: left;
+    margin-left: 10px;
+    
+}
+#icons{
+    margin-left: 350px;
+}
+.cont{
+    
+     color: white; 
+     margin-left: 20px;
+} 
+.visit{
+    color: white;
+    margin: 20px;
+}
+@media (max-width:722px) {
+    
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    #brand-name{
+        font-size: medium;
+    }
+    .star-logo{
+        font-size: small;
+        margin-left: 20px;
+    }
+    .star1{
+        width: 9%;
+        height: 9%;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .jumbotron{
+        margin-top: 20px;
+        background: url(jumbotron_992.jpg) no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f ;
+    }
+    #icons{
+        margin-left: 250px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .jumbotron{
+        margin-top: 20px;
+        background: url(jumbotron_768.jpg) no-repeat;
+        height: 432px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f ;
+    }
+}
+@media (min-width:1200px){
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    #brand-name{
+        font-size: large;
+    }
+    .star-logo{
+        font-size: medium;
+        margin-left: 20px;
+    }
+    .star1{
+        width: 9.5%;
+        height: 9%;
+    }
+    .jumbotron{
+        margin-top: 20px;
+        background: url(jumbotron_1200.jpg) no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f ;
+    }
+}
+
+.nav-phone{
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+#menu-tile,#specials-tile,#map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#menu-tile:hover,#specials-tile:hover,#map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+    background: url(menu-tile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#specials-tile{
+    background: url(specials-tile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menu-tile span,#specials-tile span,#map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+
+#menu-categories,#imp-note{
+    margin-top: 10px;
+    color: #cccccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.category-tiles{
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    margin-top: 10px;
+}
+
+.category-tiles span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000f;
+    color: #fff;
+    opacity: .8;
+}
+
+.category-tiles:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#search-bar{
+    margin-left: 350px;
+
+}
+#about,#chef,#philosophy{
+    margin-top: 20px;
+    color: #ffff;
+}
